@@ -1,5 +1,7 @@
 package projects.ch07;
 
+import java.util.Scanner;
+
 public class Overload {
     public static void main(String[] args) {
         f(2, 3);
@@ -38,4 +40,22 @@ public class Overload {
     public static void g(Double d) {
         System.out.println("Double");
     }
+
+//    public static int readInt(String prompt) {
+//        System.out.println(prompt);
+//        Scanner sc = new Scanner(System.in);
+//        return sc.nextInt();
+//    }
+//    public static int readInt(String prompt, int min, int max) {
+//        int i = readInt(prompt);
+//        if ( i >= min && i <= max ) {
+//            return i;
+//        } else {
+//            return readInt(prompt, min, max);
+//        }
+//    }
+//
+//    public static int readInt(String prompt, int min) {
+//        return readInt(prompt, min, 1000);
+//    }
 }

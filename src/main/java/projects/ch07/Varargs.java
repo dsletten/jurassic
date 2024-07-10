@@ -8,7 +8,6 @@ public class Varargs {
         m1("A", "B");
         System.out.println();
         m1("A", "B", "C");
-
         System.out.println();
         m1(new String[] {});
         System.out.println();
@@ -30,5 +29,4 @@ public class Varargs {
         }
         System.out.println();
     }
-
 }
